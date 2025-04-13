@@ -1,0 +1,223 @@
+[
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "BadRequestResult",
+    "RelativePath": "api/Product/BadRequestResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "GetDatafromSAP",
+    "RelativePath": "api/Product/GetDatafromSAP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "GetDataValue",
+    "RelativePath": "api/Product/GetDataValue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "GetData",
+    "RelativePath": "api/Product/GetEmployeeName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "Getnames",
+    "RelativePath": "api/Product/Getnames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "NotFoundResult",
+    "RelativePath": "api/Product/NotFoundResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "RegisterEmployee",
+    "RelativePath": "api/Product/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "RegisterForm",
+    "RelativePath": "api/Product/RegisterForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "RegisterForm",
+    "RelativePath": "api/Product/RegisterFormHeader",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "useragent",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "UnGetDatafromSAP",
+    "RelativePath": "api/Product/UnGetDatafromSAP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.ProductController",
+    "Method": "updateEmployee",
+    "RelativePath": "api/Product/UpdateEmployee/{name}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentReg",
+        "Type": "ShopAPI.Model.StudentReg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopAPI.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentReg",
+        "Type": "ShopAPI.Model.StudentReg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
